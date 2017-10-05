@@ -1,0 +1,68 @@
+.NexusTooltip{
+	position:absolute;
+	top:-9999px;
+	left:-9999px;
+
+	min-width:150px;
+}
+.NexusTooltip .content{
+	padding:15px 20px;
+	color:#666;
+	box-shadow:0 0 5px rgba(0,0,0,.55);
+	text-align:center;
+	font-family:'KelsonSansRegular';
+	font-size:14px;
+	border-radius:3px;
+	background:#EFE9E3;
+}
+.NexusTooltip .arrow{
+	position:absolute;
+	margin:auto;
+	width:14px;
+	height:14px;
+}
+.NexusTooltip.left .arrow,
+.NexusTooltip.right .arrow{
+	height:20px;
+	top:0;
+	bottom:0;
+}
+.NexusTooltip.top .arrow,
+.NexusTooltip.bottom .arrow{
+	width:20px;
+	left:0;
+	right:0;
+}
+
+
+.NexusTooltip.top{
+	margin-bottom:14px;
+}
+.NexusTooltip.top .arrow{
+	bottom:-14px;
+	background:url('img/NexusTooltip_arrow_bottom.png') no-repeat center;
+}
+
+.NexusTooltip.bottom{
+	margin-top:14px;
+}
+.NexusTooltip.bottom .arrow{
+	top:-14px;
+	background:url('img/NexusTooltip_arrow_top.png') no-repeat center;
+}
+
+.NexusTooltip.left{
+	margin-right:14px;
+}
+.NexusTooltip.left .arrow{
+	right:-14px;
+	background:url('img/NexusTooltip_arrow_right.png') no-repeat center;
+}
+
+.NexusTooltip.right{
+	margin-left:14px;
+}
+.NexusTooltip.right .arrow{
+	left:-14px;
+	background:url('img/NexusTooltip_arrow_left.png') no-repeat center;
+}
